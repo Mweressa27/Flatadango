@@ -1,18 +1,66 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #F7F9F9;
+}
+
+div.header{
+    height: 52px;
+    background-color: #E0D0C1;
+    display: relative;
+    position: 0;
+}
+
+div.header .header1{
+    font-size: 20px;
+    position: relative;
+    left: 75px;
+    padding-top: 1px;
+    font-style: italic;
+    
+}
+
+div.header .header2{
+    font-size: 15px;
+    position: relative;
+    left: 105px;
+    top: 0.5px;
+    
+}
+
 div.container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 div.container div.middle-panel img{
-    height: 500px;
-    width: 450px;
+    height: 430px;
+    width: 400px;
     padding: 50px;
 }
 
 div.container div.right-panel {
-    padding: 50px;
-    border: 2px solid black;
-    height: 45%;
+    padding: 10px;
+    border: 2px solid #E0D0C1;
+    border-radius: 15%;
+    height: 400px;
     margin-top: 50px;
     margin-right: 50px;
+    text-align: center;
 }
+
+div.container div.right-panel button{
+    background-color: #E0D0C1;
+}
+
+div.container div.left-panel ul#movies li.movie-title {
+    list-style-type: none;
+    text-transform: uppercase;
+    height: 30px;
+    cursor: pointer;
+    }
+
+    div.container div.left-panel ul#movies li.movie-title button {
+        background-color: #E0D0C1;
+        border-radius: 4px;
+    }
