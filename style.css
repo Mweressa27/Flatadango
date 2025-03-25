@@ -1,0 +1,18 @@
+div.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.container div.middle-panel img{
+    height: 500px;
+    width: 450px;
+    padding: 50px;
+}
+
+div.container div.right-panel {
+    padding: 50px;
+    border: 2px solid black;
+    height: 45%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
